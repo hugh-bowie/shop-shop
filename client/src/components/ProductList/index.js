@@ -17,7 +17,7 @@ function ProductList() {
   useEffect(() => {
     if(data) {
       dispatch({
-          type: UPDATE_PRODUCTS,
+           type: UPDATE_PRODUCTS,
           products: data.products
         });
     }
